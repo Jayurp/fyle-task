@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Dynamic Image Change</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <div class="onlyHeadings">
+    <div class="heading">
+        <h3>OUR PROJETCS</h3>
+    </div>
+
+    <div class="heading2">
+        <h1>WHY WE ARE BEST</h1>
+    </div>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img id="main-image" src="projects1.jpg" alt="Main Image">
+        </div>
+        <div class="content-container">
+            <div class="content" onclick="changeImage('projects1.jpg', this)">
+                <h3>Genderless Kei - Japan's Hot</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div class="content" onclick="changeImage('projects2.jpg', this)">
+                <h3>Better Strategy & Quality</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+            <div class="content" onclick="changeImage('projects3.jpg', this)">
+                <h3>Genderless Kei - Japan's Hot</h3>
+                <p>Set to launch on the manufacturer's new A330neo aircraft in 2017, it's offering lots of</p>
+            </div>
+        </div>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html>
